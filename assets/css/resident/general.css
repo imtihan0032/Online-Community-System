@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins !important;
+}
+
+:root {
+    --primary-color: #14213d;
+    --primary2-color: #2B3750;
+    --second-color: #fcac29;
+    --fw-bold: 800;
+    --fw-semibold: 600;
+    --fw-regular: 500;
+    --fs-larger: 50px;
+    --fs-large: 40px;
+    --fs-medium: 30px;
+    --fs-small: 20px;
+    --fs-smaller: 15px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.rectangle-head {
+    background-color: #2B3750;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+}
+
+.rectangle-text-head {
+    color: white;
+}
+
+.top-margin {
+    margin-top: 1.25rem;
+}
+
+.top-padding {
+    padding-top: 1.25rem;
+}
+
+.nav-bg {
+    overflow: hidden;
+    background-color: var(--primary-color);
+    width: 100%;
+}
+
+a:hover {
+    color: #FED188 !important;
+}
+
+.active {
+    color: var(--second-color) !important;
+}
+
+.label {
+    color: var(--second-color);
+    font-weight: var(--fw-bold);
+    font-size: larger;
+    margin-right: 10px;
+}
+
+.nav-link {
+    font-size: medium;
+}
+
+.nav-link-color {
+    color: white !important;
+}
+
+#footer {
+    background-color: var(--primary-color);
+    color: white;
+    height: auto;
+}
+
+.socmed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+@media(max-width:1177px) {
+    .socmed {
+        visibility: hidden;
+    }
+}
+
+.icon {
+    margin: 10px;
+}
+
+.footing-head {
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-small);
+    margin-bottom: 10px;
+}
+
+.footing-subhead {
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-smaller);
+    margin: 0;
+}
+
+.footing-normal {
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-smaller);
+    font-weight: var(--fw-regular);
+    margin-top: 0;
+}

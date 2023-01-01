@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #14213d;
+    --second-color: #fcac29;
+    --fw-bold: 800;
+    --fw-regular: 500; 
+    --fs-larger: 50px;
+    --fs-large: 40px;
+    --fs-medium: 30px;
+    --fs-small: 20px;
+    --fs-smaller: 15px;
+}
+
+.main-content {
+    background-color: white; 
+    opacity: 0.9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 8px gray;
+}
+
+body {
+    background-image: url(/images/Group\ 5.png);
+    height:100%;
+}
+
+.faci-img {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faci-div {
+    overflow: auto;
+}
+
+.content-head {
+    padding: 15px;
+}
+
+.text-head {
+    font-weight: var(--fw-bold);
+}

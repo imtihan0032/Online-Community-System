@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins !important;
+}
+
+.page-header {
+    background-color: #2B3750;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+}
+
+.mother-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+div section {
+    background-color: #89909E;
+    margin: 1.5%;
+    padding: 1%;
+    border-radius: 1em;
+    width: 500px;
+    height: 500px;
+}
+
+.heading3-color {
+    color: #14213D;
+}
+
+div section h3 {
+    font-size: 1.5em;
+}
+
+.mini-box {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+}
+
+.mini-box-color {
+    color: #2B3750;
+}
+
+.mt-8 {
+    margin-top: 30%;
+}
+
+.mt-6 {
+    margin-top: 15%;
+}
+
+.font-form {
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.para-color-status {
+    color: #2B3750;
+}
+
+section p {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.btn-report {
+    background-color: #FDB541;
+    color: #ffffff;
+}
+
+.btn-report:hover {
+    color: #14213D;
+}
+
+.ms-8 {
+    margin-left: 30%;
+}
+
+.anchor-background-color {
+    background-color: #2B3750;
+}
+
+.input-length {
+    margin-left: 10em;
+    margin-right: 10em;
+    width: 40%
+}
+
+section h5,
+label {
+    color: #14213D;
+}
+
+.info {
+    background-color: #2B3750;
+    color: #ffffff;
+}
+
+.Covid-form {
+    width: 150%;
+}
+
+@media(max-width: 1150px) {
+    .mother-section {
+        flex-direction: column;
+    }
+    .Covid-form {
+        width: 100%;
+    }
+}
+
+#piechartdaily {
+    width: 80%;
+    height: 80%;
+}
+
+#piechartweekly {
+    width: 80%;
+    height: 80%;
+}
+
+#special {
+    height: 700px;
+    width: 700px;
+}

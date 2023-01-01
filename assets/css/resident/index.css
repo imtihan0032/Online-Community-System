@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #14213d;
+    --second-color: #fcac29;
+    --fw-bold: 800;
+    --fw-regular: 500;
+    --fs-larger: 50px;
+    --fs-large: 40px;
+    --fs-medium: 30px;
+    --fs-small: 20px;
+    --fs-smaller: 15px;
+}
+
+.wrapper {
+    background-image: url(../../img/indexBackground.png);
+    height: 90%;
+}
+
+.welcome {
+    color: var(--primary-color);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-large);
+}
+
+.apartmentName {
+    color: var(--second-color);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-larger)
+}
+
+.subwel {
+    color: var(--primary-color);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-small);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    float: right;
+    margin-right: 15px;
+    padding: 5px 15px 5px 15px;
+}

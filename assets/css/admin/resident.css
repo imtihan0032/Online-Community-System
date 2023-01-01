@@ -1,0 +1,217 @@
+/* Table CSS */
+
+table {
+    color: #555;
+    width: 100% !important;
+}
+
+table thead tr,
+table tbody tr,
+table tfoot tr {
+    padding: 0;
+    margin: 0;
+    line-height: 23px;
+}
+
+table tbody tr td {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.table-wrapper {
+    background: #fff;
+    padding: 20px 25px;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.table-title {
+    background: #14213d;
+    color: #fcac29;
+    padding: 16px 10px 16px 10px;
+    min-width: 100%;
+    margin: -20px -25px 20px;
+    border-radius: 3px 3px 0 0;
+}
+
+.table-title h2 {
+    margin: 5px 0 0 0;
+    font-size: 20px;
+}
+
+.table-title .btn {
+    color: #fff;
+    float: right;
+    font-size: 13px;
+    border: none;
+    min-width: 50px;
+    border-radius: 2px;
+    border: none;
+    outline: none !important;
+    margin-left: 10px;
+}
+
+.table-title .btn i {
+    float: left;
+    margin-block: 4px;
+    padding-inline-end: 10px;
+}
+
+.table-title .btn span {
+    float: right;
+    margin: auto;
+}
+
+table.table tr th,
+table.table tr td {
+    border-color: #e9e9e9;
+    padding: 12px 15px;
+    vertical-align: middle;
+}
+
+table.table tr th:last-child {
+    width: 10px;
+}
+
+table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fcfcfc;
+}
+
+table.table-striped.table-hover tbody tr:hover {
+    background: #f5f5f5;
+}
+
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+table.table td a {
+    font-weight: bold;
+    color: #566787;
+    display: inline-block;
+    text-decoration: none;
+    outline: none !important;
+}
+
+table.table td a.edit-data {
+    color: #FFC107;
+}
+
+table.table td a.delete-data {
+    color: #F44336;
+}
+
+table.table td i {
+    margin: 0 5px;
+    font-size: 19px;
+}
+
+/* Table CSS */
+
+/* DataTables CSS */
+
+.alert {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#resident-list {
+    margin-bottom: 18px !important;
+}
+
+#resident-list_length label,
+#resident-list_filter label,
+#resident-list_info {
+    color: #5c5c5c;
+    font-size: 13px !important;
+    font-weight: 500;
+}
+
+#resident-list_length {
+    float: left;
+    padding-bottom: 12px;
+}
+
+#resident-list_info {
+    float: left;
+    padding-top: 8px;
+}
+
+#resident-list_filter,
+#resident-list_paginate {
+    float: right;
+}
+
+#resident-list_length .form-control {
+    font-size: 13px !important;
+    font-weight: 400 !important;
+}
+
+#resident-list_length .form-control:focus,
+#resident-list_filter .form-control:focus {
+    color: #495057;
+    border-color: #b8daff;
+    outline: 0;
+    box-shadow: none;
+}
+
+#resident-list_paginate .page-item:focus,
+#resident-list_paginate .page-link:focus {
+    border-color: #b8daff;
+    outline: 0;
+    box-shadow: none;
+}
+
+/* DataTables CSS */
+
+/* Paging CSS */
+
+.pagination {
+    font-weight: 500;
+}
+
+.pagination li a {
+    border: none;
+    font-size: 13px;
+    min-width: 30px;
+    min-height: 30px;
+    color: #999;
+    margin: 0 2px;
+    line-height: 30px;
+    border-radius: 2px !important;
+    text-align: center;
+    padding: 0 6px;
+}
+
+.pagination li a:hover {
+    color: #666;
+}
+
+.pagination li.active a,
+.pagination li.active a.page-link {
+    color: #004085;
+    background: #cce5ff;
+    border-color: #b8daff;
+}
+
+.pagination li.active a:hover {
+    background: #b8daff;
+}
+
+.pagination li.disabled i {
+    color: #ccc;
+}
+
+.pagination li i {
+    font-size: 16px;
+    padding-top: 6px
+}
+
+.page-item.disabled .page-link {
+    color: #5c5c5c;
+}
+
+/* Paging CSS */

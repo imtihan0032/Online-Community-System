@@ -1,0 +1,82 @@
+:root {
+    --primary-color: #14213d;
+    --second-color: #fcac29;
+    --fw-bold: 800;
+    --fw-semibold: 600;
+    --fw-regular: 500;
+    --fs-larger: 50px;
+    --fs-large: 40px;
+    --fs-medium: 30px;
+    --fs-small: 20px;
+    --fs-smaller: 15px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+input:focus {
+    outline: none;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+.search_div {
+    align-items: center;
+    justify-content: center;
+    background-color: #89909E;
+    border-radius: 50px;
+    width: 700px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.search_div2 {
+    align-items: center;
+    justify-content: center;
+    background-color: #89909E;
+    border-radius: 50px;
+    width: 700px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.search {
+    border-style: none;
+    background-color: #89909E;
+    color: white;
+    width: 600px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.magnifier {
+    float: right;
+    align-items: center;
+    margin-top: 0;
+    padding: 5px;
+}
+
+.direction-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.results-container {
+    margin-bottom: 20px;
+}
+
+.result-head {
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-medium);
+}
+
+.result-info {
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-small);
+}
